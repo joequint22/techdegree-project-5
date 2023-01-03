@@ -21,6 +21,7 @@
   display: grid; 
   max-width: 870px; // makes grid-gap equal to eachother
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); //auto fit makes grid responsive
+  grid-template-rows: 1fr;
   grid-gap: 20px;
   margin-top: 25px;
 }
